@@ -33,8 +33,8 @@
 3.	Right click and maven->update project. 
 4.	Open Config.properties file and make the initial configurations changes. For e.g. Browser, ReportName, etc.
 5.	Ways to start the execution:
-    a.	Run the TestNg.xml file using TestNg.
-    b.	Run the TodosTC.java class from com.zendesk.testcases using TestNg.
-    c.	Right click and maven-test on Pom.xml
+    1.	Run the TestNg.xml file using TestNg.
+    2.	Run the TodosTC.java class from com.zendesk.testcases using TestNg.
+    3.	Right click and maven-test on Pom.xml
 
 
