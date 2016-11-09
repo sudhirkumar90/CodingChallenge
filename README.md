@@ -31,7 +31,7 @@
 1.	Unzip zendesk.zip
 2.	Import the zendesk folder as maven project into Eclipse.
 3.	Right click and maven->update project. 
-4.	Open Config.properties file and make the initial configurations changes. For e.g. Browser, ReportName, etc.
+4.	Open Config.properties file and make the initial configurations changes. For Chrome browser use “Chrome”, for Firefox use “Firefox” and for Safari use “Safari” keyword.
 5.	Ways to start the execution:
     1.	Run the TestNg.xml file using TestNg.
     2.	Run the TodosTC.java class from com.zendesk.testcases using TestNg.
