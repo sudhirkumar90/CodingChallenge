@@ -19,7 +19,7 @@
 5.	com.zendesk.generic package contains all the generic functions/setup/utility files which are common to all scripts
 6.	Config.properties file inside com.zendesk.config is for initial test configuration.
 7.	All scripts are data driven using excel with the help of Apache POI & TestNg. The test data file location is: zendesk/TestData/TestData.xlsx
-8.	Reports are generated using Extent API. Each step during the test execution is logged into the reports. Verifications, Assertion and exception are logged along with the current screenshots. The default location of the report is: zendesk/ExtendReport/<Report_Name>.html
+8.	Reports are generated using Extent API. Each step during the test execution is logged into the reports. Verifications, Assertion and exception are logged along with the current screenshots. The default location of the report is: zendesk/ExtendReport/${Report_Name}.html
 9.	TestNg.xml is configured to run from POM.xml using maven’s surefire plugin and these scripts can be integrated with any CI tool like Jenkins.
 10.	 TestData folder inside the project contains the TestData.xlsx and contains the test-data for the scripts.
 11.	 ExtendReport folder inside the project contains the report and the screenshots.
