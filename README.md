@@ -2,13 +2,13 @@
 
 
 #Components of the Framework:
-1)	Selenium WebDriver
-2)	TestNg
-3)	Maven
-4)	Apache POI
-5)	Extent Report API for Reporting
-6)	Java programming language
-7)	Page Object Model and Object Repository
+1.	Selenium WebDriver
+2.	TestNg
+3.	Maven
+4.	Apache POI
+5.	Extent Report API for Reporting
+6.	Java programming language
+7.	Page Object Model and Object Repository
 
 
 #Framework Description:
