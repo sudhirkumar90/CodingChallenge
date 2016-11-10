@@ -13,7 +13,7 @@
 
 #Framework Description:
 1.	This framework is using page object model to create Object Repositories for each Web-Page. 
-2.	Test can be run on Chrome/ Firefox/ Safari. (tested on Chrome (53.0.2785.143), Firefox (47.0.1) and Safari (10.0.1)).
+2.	Test can be run on Chrome/ Firefox/ Safari. (tested on Chrome (53.0.2785.143), Firefox (47.0.1) and Safari (10.0.1)). **Please install the SafariDriver.safariextz from** http://selenium-release.storage.googleapis.com/index.html?path=2.48/
 3.	All the page elements and page related functions are inside **com.zendesk.objectRepository** package.
 4.	Test scripts (TestNg test functions) are inside **com.zendesk.testcases** package.
 5.	com.zendesk.generic package contains all the generic functions, setup and utility files, which are common to all scripts.
