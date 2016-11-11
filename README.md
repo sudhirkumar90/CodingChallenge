@@ -16,7 +16,7 @@
 2.	Test can be run on Chrome/ Firefox/ Safari. (tested on Chrome (53.0.2785.143), Firefox (47.0.1) and Safari (10.0.1)). **Please install the SafariDriver.safariextz from** http://selenium-release.storage.googleapis.com/index.html?path=2.48/
 3.	All the page elements and page related functions are inside **com.zendesk.objectRepository** package.
 4.	Test scripts (TestNg test functions) are inside **com.zendesk.testcases** package.
-5.	com.zendesk.generic package contains all the generic functions, setup and utility files, which are common to all scripts.
+5.	**com.zendesk.generic** package contains all the generic functions, setup and utility files, which are common to all scripts.
 6.	Config.properties file inside **com.zendesk.config** is for initial test configuration.
 7.	All scripts are data driven using excel with the help of Apache POI & TestNg. The test data file location is: zendesk/TestData/TestData.xlsx
 8.	Reports are generated using Extent API. Each step during the test execution is logged into the reports. Verifications, Assertion and exception are logged along with the current screenshots. The default location of the report is: zendesk/ExtendReport/${Report_Name}.html
